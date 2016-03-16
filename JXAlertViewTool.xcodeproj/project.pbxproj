@@ -15,6 +15,7 @@
 		6F6C72991C990D880043F5D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C72971C990D880043F5D7 /* LaunchScreen.storyboard */; };
 		6F6C72A41C990D880043F5D7 /* JXAlertViewToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C72A31C990D880043F5D7 /* JXAlertViewToolTests.m */; };
 		6F6C72AF1C990D880043F5D7 /* JXAlertViewToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C72AE1C990D880043F5D7 /* JXAlertViewToolUITests.m */; };
+		6F6C72C31C990DE50043F5D7 /* JXAlertViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C72C21C990DE50043F5D7 /* JXAlertViewTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6F6C72AA1C990D880043F5D7 /* JXAlertViewToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXAlertViewToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6C72AE1C990D880043F5D7 /* JXAlertViewToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAlertViewToolUITests.m; sourceTree = "<group>"; };
 		6F6C72B01C990D880043F5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6C72C11C990DE50043F5D7 /* JXAlertViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAlertViewTool.h; sourceTree = "<group>"; };
+		6F6C72C21C990DE50043F5D7 /* JXAlertViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAlertViewTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				6F6C728D1C990D880043F5D7 /* AppDelegate.m */,
 				6F6C728F1C990D880043F5D7 /* ViewController.h */,
 				6F6C72901C990D880043F5D7 /* ViewController.m */,
+				6F6C72C01C990DE50043F5D7 /* JXAlertViewTool */,
 				6F6C72921C990D880043F5D7 /* Main.storyboard */,
 				6F6C72951C990D880043F5D7 /* Assets.xcassets */,
 				6F6C72971C990D880043F5D7 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				6F6C72B01C990D880043F5D7 /* Info.plist */,
 			);
 			path = JXAlertViewToolUITests;
+			sourceTree = "<group>";
+		};
+		6F6C72C01C990DE50043F5D7 /* JXAlertViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C72C11C990DE50043F5D7 /* JXAlertViewTool.h */,
+				6F6C72C21C990DE50043F5D7 /* JXAlertViewTool.m */,
+			);
+			path = JXAlertViewTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				6F6C72911C990D880043F5D7 /* ViewController.m in Sources */,
 				6F6C728E1C990D880043F5D7 /* AppDelegate.m in Sources */,
 				6F6C728B1C990D880043F5D7 /* main.m in Sources */,
+				6F6C72C31C990DE50043F5D7 /* JXAlertViewTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JXAlertViewTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JXAlertViewTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

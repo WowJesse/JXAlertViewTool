@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "JXAlertViewTool.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)clickBtn:(id)sender {
+    [JXAlertViewTool showAlertView:self title:@"your are so .." message:@"handsome" cancelButtonTitle:@"cancle" otherButtonTitle:@"confirm" confirm:^{
+        NSLog(@"confirm");
+    } cancle:^{
+        NSLog(@"cancle");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
