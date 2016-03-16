@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F6C728B1C990D880043F5D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C728A1C990D880043F5D7 /* main.m */; };
+		6F6C728E1C990D880043F5D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C728D1C990D880043F5D7 /* AppDelegate.m */; };
+		6F6C72911C990D880043F5D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C72901C990D880043F5D7 /* ViewController.m */; };
+		6F6C72941C990D880043F5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C72921C990D880043F5D7 /* Main.storyboard */; };
+		6F6C72961C990D880043F5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C72951C990D880043F5D7 /* Assets.xcassets */; };
+		6F6C72991C990D880043F5D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C72971C990D880043F5D7 /* LaunchScreen.storyboard */; };
+		6F6C72A41C990D880043F5D7 /* JXAlertViewToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C72A31C990D880043F5D7 /* JXAlertViewToolTests.m */; };
+		6F6C72AF1C990D880043F5D7 /* JXAlertViewToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C72AE1C990D880043F5D7 /* JXAlertViewToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F6C72A01C990D880043F5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6C727E1C990D880043F5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6C72851C990D880043F5D7;
+			remoteInfo = JXAlertViewTool;
+		};
+		6F6C72AB1C990D880043F5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6C727E1C990D880043F5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6C72851C990D880043F5D7;
+			remoteInfo = JXAlertViewTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F6C72861C990D880043F5D7 /* JXAlertViewTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXAlertViewTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6C728A1C990D880043F5D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F6C728C1C990D880043F5D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F6C728D1C990D880043F5D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F6C728F1C990D880043F5D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F6C72901C990D880043F5D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F6C72931C990D880043F5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F6C72951C990D880043F5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F6C72981C990D880043F5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F6C729A1C990D880043F5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6C729F1C990D880043F5D7 /* JXAlertViewToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXAlertViewToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6C72A31C990D880043F5D7 /* JXAlertViewToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAlertViewToolTests.m; sourceTree = "<group>"; };
+		6F6C72A51C990D880043F5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6C72AA1C990D880043F5D7 /* JXAlertViewToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXAlertViewToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6C72AE1C990D880043F5D7 /* JXAlertViewToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAlertViewToolUITests.m; sourceTree = "<group>"; };
+		6F6C72B01C990D880043F5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F6C72831C990D880043F5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C729C1C990D880043F5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C72A71C990D880043F5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6C727D1C990D880043F5D7 = {
+			isa = PBXGroup;
+			children = (
+				6F6C72881C990D880043F5D7 /* JXAlertViewTool */,
+				6F6C72A21C990D880043F5D7 /* JXAlertViewToolTests */,
+				6F6C72AD1C990D880043F5D7 /* JXAlertViewToolUITests */,
+				6F6C72871C990D880043F5D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F6C72871C990D880043F5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C72861C990D880043F5D7 /* JXAlertViewTool.app */,
+				6F6C729F1C990D880043F5D7 /* JXAlertViewToolTests.xctest */,
+				6F6C72AA1C990D880043F5D7 /* JXAlertViewToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F6C72881C990D880043F5D7 /* JXAlertViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C728C1C990D880043F5D7 /* AppDelegate.h */,
+				6F6C728D1C990D880043F5D7 /* AppDelegate.m */,
+				6F6C728F1C990D880043F5D7 /* ViewController.h */,
+				6F6C72901C990D880043F5D7 /* ViewController.m */,
+				6F6C72921C990D880043F5D7 /* Main.storyboard */,
+				6F6C72951C990D880043F5D7 /* Assets.xcassets */,
+				6F6C72971C990D880043F5D7 /* LaunchScreen.storyboard */,
+				6F6C729A1C990D880043F5D7 /* Info.plist */,
+				6F6C72891C990D880043F5D7 /* Supporting Files */,
+			);
+			path = JXAlertViewTool;
+			sourceTree = "<group>";
+		};
+		6F6C72891C990D880043F5D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C728A1C990D880043F5D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F6C72A21C990D880043F5D7 /* JXAlertViewToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C72A31C990D880043F5D7 /* JXAlertViewToolTests.m */,
+				6F6C72A51C990D880043F5D7 /* Info.plist */,
+			);
+			path = JXAlertViewToolTests;
+			sourceTree = "<group>";
+		};
+		6F6C72AD1C990D880043F5D7 /* JXAlertViewToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C72AE1C990D880043F5D7 /* JXAlertViewToolUITests.m */,
+				6F6C72B01C990D880043F5D7 /* Info.plist */,
+			);
+			path = JXAlertViewToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F6C72851C990D880043F5D7 /* JXAlertViewTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6C72B31C990D880043F5D7 /* Build configuration list for PBXNativeTarget "JXAlertViewTool" */;
+			buildPhases = (
+				6F6C72821C990D880043F5D7 /* Sources */,
+				6F6C72831C990D880043F5D7 /* Frameworks */,
+				6F6C72841C990D880043F5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXAlertViewTool;
+			productName = JXAlertViewTool;
+			productReference = 6F6C72861C990D880043F5D7 /* JXAlertViewTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F6C729E1C990D880043F5D7 /* JXAlertViewToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6C72B61C990D880043F5D7 /* Build configuration list for PBXNativeTarget "JXAlertViewToolTests" */;
+			buildPhases = (
+				6F6C729B1C990D880043F5D7 /* Sources */,
+				6F6C729C1C990D880043F5D7 /* Frameworks */,
+				6F6C729D1C990D880043F5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6C72A11C990D880043F5D7 /* PBXTargetDependency */,
+			);
+			name = JXAlertViewToolTests;
+			productName = JXAlertViewToolTests;
+			productReference = 6F6C729F1C990D880043F5D7 /* JXAlertViewToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F6C72A91C990D880043F5D7 /* JXAlertViewToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6C72B91C990D880043F5D7 /* Build configuration list for PBXNativeTarget "JXAlertViewToolUITests" */;
+			buildPhases = (
+				6F6C72A61C990D880043F5D7 /* Sources */,
+				6F6C72A71C990D880043F5D7 /* Frameworks */,
+				6F6C72A81C990D880043F5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6C72AC1C990D880043F5D7 /* PBXTargetDependency */,
+			);
+			name = JXAlertViewToolUITests;
+			productName = JXAlertViewToolUITests;
+			productReference = 6F6C72AA1C990D880043F5D7 /* JXAlertViewToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F6C727E1C990D880043F5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jesse;
+				TargetAttributes = {
+					6F6C72851C990D880043F5D7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6F6C729E1C990D880043F5D7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6F6C72851C990D880043F5D7;
+					};
+					6F6C72A91C990D880043F5D7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6F6C72851C990D880043F5D7;
+					};
+				};
+			};
+			buildConfigurationList = 6F6C72811C990D880043F5D7 /* Build configuration list for PBXProject "JXAlertViewTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F6C727D1C990D880043F5D7;
+			productRefGroup = 6F6C72871C990D880043F5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F6C72851C990D880043F5D7 /* JXAlertViewTool */,
+				6F6C729E1C990D880043F5D7 /* JXAlertViewToolTests */,
+				6F6C72A91C990D880043F5D7 /* JXAlertViewToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F6C72841C990D880043F5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6C72991C990D880043F5D7 /* LaunchScreen.storyboard in Resources */,
+				6F6C72961C990D880043F5D7 /* Assets.xcassets in Resources */,
+				6F6C72941C990D880043F5D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C729D1C990D880043F5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C72A81C990D880043F5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F6C72821C990D880043F5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6C72911C990D880043F5D7 /* ViewController.m in Sources */,
+				6F6C728E1C990D880043F5D7 /* AppDelegate.m in Sources */,
+				6F6C728B1C990D880043F5D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C729B1C990D880043F5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6C72A41C990D880043F5D7 /* JXAlertViewToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6C72A61C990D880043F5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6C72AF1C990D880043F5D7 /* JXAlertViewToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F6C72A11C990D880043F5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6C72851C990D880043F5D7 /* JXAlertViewTool */;
+			targetProxy = 6F6C72A01C990D880043F5D7 /* PBXContainerItemProxy */;
+		};
+		6F6C72AC1C990D880043F5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6C72851C990D880043F5D7 /* JXAlertViewTool */;
+			targetProxy = 6F6C72AB1C990D880043F5D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F6C72921C990D880043F5D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6C72931C990D880043F5D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F6C72971C990D880043F5D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F6C72981C990D880043F5D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F6C72B11C990D880043F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F6C72B21C990D880043F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F6C72B41C990D880043F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXAlertViewTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F6C72B51C990D880043F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXAlertViewTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F6C72B71C990D880043F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXAlertViewToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXAlertViewTool.app/JXAlertViewTool";
+			};
+			name = Debug;
+		};
+		6F6C72B81C990D880043F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXAlertViewToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXAlertViewTool.app/JXAlertViewTool";
+			};
+			name = Release;
+		};
+		6F6C72BA1C990D880043F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXAlertViewToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXAlertViewTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F6C72BB1C990D880043F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXAlertViewToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JXAlertViewToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXAlertViewTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F6C72811C990D880043F5D7 /* Build configuration list for PBXProject "JXAlertViewTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6C72B11C990D880043F5D7 /* Debug */,
+				6F6C72B21C990D880043F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6C72B31C990D880043F5D7 /* Build configuration list for PBXNativeTarget "JXAlertViewTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6C72B41C990D880043F5D7 /* Debug */,
+				6F6C72B51C990D880043F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F6C72B61C990D880043F5D7 /* Build configuration list for PBXNativeTarget "JXAlertViewToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6C72B71C990D880043F5D7 /* Debug */,
+				6F6C72B81C990D880043F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F6C72B91C990D880043F5D7 /* Build configuration list for PBXNativeTarget "JXAlertViewToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6C72BA1C990D880043F5D7 /* Debug */,
+				6F6C72BB1C990D880043F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F6C727E1C990D880043F5D7 /* Project object */;
+}
