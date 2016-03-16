@@ -6,3 +6,9 @@
     } cancle:^{
         NSLog(@"cancle");
     }];
+
+![Mou icon](https://github.com/WowJesse/JXAlertViewTool/blob/master/jesseImage.png?raw=true)
+
+
+
+![Mou icon](https://github.com/WowJesse/JXAlertViewTool/blob/master/jesse.gif?raw=true)
